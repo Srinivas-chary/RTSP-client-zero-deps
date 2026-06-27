@@ -1,0 +1,3 @@
+RTSP Client (No Dependencies)
+
+A high-performance, standalone RTSP client implemented entirely in ANSI C without external libraries. The project establishes an RTSP session with IP cameras, performs Digest Authentication, receives H.265/HEVC video over RTP, reassembles fragmented NAL units, packetizes them into MPEG Transport Stream (MPEG-TS), and forwards the stream over UDP for playback in applications such as VLC. The implementation includes RTP packet reordering, MPEG-TS multiplexing, keep-alive handling, and low-latency streaming, making it suitable for embedded Linux and resource-constrained systems.
